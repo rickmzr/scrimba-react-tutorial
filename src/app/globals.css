@@ -29,6 +29,9 @@ body {
 
 .main-container {
   padding: 27px;
+  background-image: url(../img/reactjs-icon\ 2.png);
+  background-position: right 75%;
+  background-repeat: no-repeat;
 }
 
 .main-title {
@@ -44,6 +47,11 @@ body {
 
 .main-facts > li {
   color: #ffffff;
-  padding: 10px;
+  padding-block: 10px;
   font-weight: 400;
+}
+
+.main-facts > li::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
 }
