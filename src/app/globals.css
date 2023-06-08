@@ -1,54 +1,24 @@
-@font-face {
-  font-family: "Journal";
-  src: url(../fonts/momt___-webfont.woff2);
-}
-
 * {
   margin: 0;
-  font-family: "Journal";
 }
 
 .header {
-  padding: 8px;
-  background-color: rgb(143, 115, 131);
+  padding: 30px 25px;
+  background-color: #21222a;
 }
 
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
-.nav-img {
-  width: 60px;
+.navbar > h3 {
+  color: #61dafb;
+  margin: 0 auto 0 7px;
+  font-size: 22px;
 }
 
-.nav-items {
-  list-style: none;
-  display: flex;
-}
-
-.nav-items > li {
-  padding: 10px;
-}
-
-.main-content {
-  padding: 8px;
-}
-
-.reason-list {
-  margin: 8px 0;
-}
-
-.reason-list > li {
-  padding: 2px;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 8px;
-  background-color: #ee2828;
+.navbar > h4 {
+  color: #deebf8;
+  font-weight: 600;
 }
